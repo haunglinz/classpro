@@ -1,0 +1,12 @@
+﻿生成启动时间为 2017/12/3 16:19:48。
+     1>项目“E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\HelloCpp.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug.win32\HelloCpp.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\cocos2dx" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\cocos2dx\include" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\cocos2dx\platform\win32" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\external" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\CocosDenshion\include" /I"E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp BackgroundLayer.cpp FishLayer.cpp GameMenuLayer.cpp GameScene.cpp main.cpp MenuLayer.cpp StaticData.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(147,5): error : 缺少必需的文件“”。
+     1>已完成生成项目“E:\cocos2d-x-2.2.5\projects\myTest\proj.win32\HelloCpp.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.04
