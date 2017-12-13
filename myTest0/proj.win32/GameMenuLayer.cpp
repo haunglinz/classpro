@@ -27,21 +27,18 @@ bool GameMenuLayer::init()
 
 void GameMenuLayer::createMenu(void)
 {
-	CCSpriteFrameCache::sharedSpriteFrameCache()->addCCSpriteFrameWithFile("UI_GameMenuText_cn-ipadhd.plist");
-	CCSpriteFrameCache::sharedSpriteFrameCache()->addCCSpriteFrameWithFile("UI_GameStartMenuLayer-ipadhd.plist");
-	CCSprite *startNormalBackgroundSprite = CCSprite::createWithSpriteFrameName("ui_button_box02_02.png");
-	CCSprite *startNormalTextSprite = CCSprite::createWithSpriteFrameName("ui_2p_010.png");
+	CCSprite *startNormalBackgroundSprite = CCSprite::create("");
+	CCSprite *startNormalTextSprite = CCSprite::create();
 	startNoramlBackgroundSprite -> addChild(startNormalTextSprite);
-	CCSize size = startNormalBackgroundSprite()->getContentSize();
-	startNormalTextSprite->setPosition(cpp(winSzie.width/2,winSize.height/2+20));
-	CCSprite *startSeletedBackgroundSprite= CCSprite::createWithSpriteFrameName("ui_button_box02_01.png");
-	CCSprite *startSeletedTextSprite = CCSprite::createWithSpriteFrameName("ui_2p_010.png");
+	startNormalTextSprite->setPosition(cpp(1,2));
+	CCSprite *startSeletedBackgroundSprite= CCSprite::create("");
+	CCSprite *startSeletedTextSprite = CCSprite::create("");
 	startSeletedBackgroundSprite->addChild(startNormalTextSprite);
-	startSelectedTextSprite->setPosition(ccp(winSzie.width/2,winSize.height/2+20));
+	startSelectedTextSprite->setPosition(ccp(1,2));
 	CCMenuItemSprite *startMenuItem = CCMenuItemSprite::create(startNormalBackgroundSprite
 		,startSeletedBackgroundSprite,this,menu_selector(GameMenuLayer::menuCallbackStartGame));
 	CCMenu *menu  = CCMenu::create(startMenuItem,NULL);
-	this-> addChild(menu);
+	addChild(menu);
 	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
 	menu->setPosition(cpp(winSzie.width/2,winSize.height/3));	
 

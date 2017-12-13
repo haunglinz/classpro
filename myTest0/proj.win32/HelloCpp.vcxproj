@@ -134,9 +134,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="BackgroundLayer.cpp" />
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="Cannon.cpp" />
-    <ClCompile Include="CannonLayer.cpp" />
     <ClCompile Include="Fish.cpp" />
     <ClCompile Include="FishLayer.cpp" />
     <ClCompile Include="GameMenuLayer.cpp" />
@@ -149,9 +146,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="BackgroundLayer.h" />
-    <ClInclude Include="Bullet.h" />
-    <ClInclude Include="Cannon.h" />
-    <ClInclude Include="CannonLayer.h" />
     <ClInclude Include="Fish.h" />
     <ClInclude Include="FishLayer.h" />
     <ClInclude Include="GameMenuLayer.h" />

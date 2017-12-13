@@ -39,15 +39,6 @@
     <ClCompile Include="Fish.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Bullet.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="Cannon.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="CannonLayer.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -78,15 +69,6 @@
       <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="Fish.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="Cannon.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="CannonLayer.h">
       <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>
